@@ -1,11 +1,9 @@
 #include <iostream>
-#include <fstream>
 #include <string>
-#include <vector>
-using namespace std;//usingºÍnamespace¶¼ÊÇC++µÄ¹Ø¼ü×Ö£¬stdÊÇ±ê×¼¿âËù×¤Ö®ÃüÃû¿Õ¼ä£¨namespace£©µÄÃû³Æ
-//±ê×¼¿âËùÌá¹©µÄÈÎºÎÊµÎï£¨ÖîÈçstring class£¬ºÍcout cinÁ½¸öiostreamÀà¶ÔÏó£©¶¼·â×°ÔÚÃüÃû¿Õ¼ästdÄÚ
+using namespace std;//usingå’Œnamespaceéƒ½æ˜¯C++çš„å…³é”®å­—ï¼Œstdæ˜¯æ ‡å‡†åº“æ‰€é©»ä¹‹å‘½åç©ºé—´ï¼ˆnamespaceï¼‰çš„åç§°
+//æ ‡å‡†åº“æ‰€æä¾›çš„ä»»ä½•å®ç‰©ï¼ˆè¯¸å¦‚string classï¼Œå’Œcout cinä¸¤ä¸ªiostreamç±»å¯¹è±¡ï¼‰éƒ½å°è£…åœ¨å‘½åç©ºé—´stdå†…
 
-//¿¼²ìµã£¬ÔõÃ´ÔÚµÚÒ»¸öÎÊÌâÖĞ°üº¬Á½¸öµ¥´Ê,Í¬Ê±ÔÚprintfÖĞstringµÄÊä³ö·½Ê½ÒªÓÃ.c_strÄÚÖÃº¯Êı
+//è€ƒå¯Ÿç‚¹ï¼Œæ€ä¹ˆåœ¨ç¬¬ä¸€ä¸ªé—®é¢˜ä¸­åŒ…å«ä¸¤ä¸ªå•è¯,åŒæ—¶åœ¨printfä¸­stringçš„è¾“å‡ºæ–¹å¼è¦ç”¨.c_strå†…ç½®å‡½æ•°
 int main()
 {
     char first_name[20];
